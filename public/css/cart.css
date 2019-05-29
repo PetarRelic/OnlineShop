@@ -13,8 +13,7 @@
   justify-content: space-between;
   padding: 1rem;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 .cart__item h1,
@@ -22,23 +21,5 @@
   margin-right: 1rem;
   font-size: 1.2rem;
   margin: 0;
-}
-
-.btn-delete {
-  display: inline-block;
-  padding: 0.25rem 1rem;
-  text-decoration: none;
-  font: inherit;
-  border: 1px solid red;
-  color: red;
-  background: white;
-  border-radius: 3px;
-  cursor: pointer;
-}
-
-.btn-delete:hover,
-.btn-delete:active {
-  background-color: red;
-  color: white;
 }
 
