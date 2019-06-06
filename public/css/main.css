@@ -232,6 +232,22 @@ form {
   color: white;
 }
 
+.reset {
+  display: inline-block;
+  text-decoration: none;
+  font: inherit;
+  color: #00695c;
+  background: white;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.reset:hover,
+.reset:active {
+  background-color: #00695c;
+  color: white;
+}
+
 .user-message {
   margin: auto;
   width: 90%;
