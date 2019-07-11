@@ -232,22 +232,6 @@ form {
   color: white;
 }
 
-.reset {
-  display: inline-block;
-  text-decoration: none;
-  font: inherit;
-  color: #00695c;
-  background: white;
-  border-radius: 3px;
-  cursor: pointer;
-}
-
-.reset:hover,
-.reset:active {
-  background-color: #00695c;
-  color: white;
-}
-
 .user-message {
   margin: auto;
   width: 90%;
@@ -258,11 +242,32 @@ form {
   text-align: center;
 }
 
-.user-message--error{
+.user-message--error {
   border-color: red;
-  background: rgb(255,176,176);
+  background: rgb(255, 176, 176);
+  color: red;
+}
+
+.pagination {
+  margin-top: 2rem;
   text-align: center;
 }
+
+.pagination a{
+  text-decoration: none;
+  color: #00695c;
+  padding: 0.5rem;
+  border: 1px solid #00695c;
+  margin: 0 1rem;
+}
+
+.pagination a:hover,
+.pagination a:active,
+.pagination a.active{
+  background: #00695c;
+  color: white;
+}
+
 
 @media (min-width: 768px) {
   .main-header__nav {
@@ -273,8 +278,7 @@ form {
     display: none;
   }
 
-  .user-message{
+  .user-message {
     width: 30rem;
   }
 }
-
